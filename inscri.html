@@ -1,0 +1,92 @@
+<html>
+     <head>
+        <link rel="stylesheet" href="inscri.css"/>
+        <title>INSCRIPTOIN WEB</title>
+        <script type="text/javascript" src="inscrii.js" async></script>
+     </head>
+   <body>
+      <form>
+        <fieldset>
+            <h3 id="Date"></h3>
+            <input type="button" value="la date de aujourd'hui" onclick="afficheDate()">
+           <legend>INSCRIPTOIN</legend>
+    <table>
+        <tr>
+         <td><label for="">Nom</label><span>*</span></td>
+         <td><input id="Nom" type="text" name="Nom"></td>
+         <td><p id="error1"></p></td>
+        </tr>&emsp;
+
+        <tr>
+         <td><label for="">Prénome</label><span >*</span></td>
+         <td><input id="Prénome" type="text" name="Prénome"></td>
+         <td><p id="error2"></p></td>
+       </tr>
+        
+        <tr>
+         <td><label for="" >Date de Naissance</label><span >*</span></td>
+         <td><input id="dn" type="date" ></td>
+         <td><p id="error3" ></p></td>
+       </tr>
+
+        <tr>
+         <td><label for="" >code postal</label><span >*</span></td>
+         <td><input id="Cp" type="code" name="Code postal"></td>
+         <td><p id="error4"></p></td>
+        </tr>
+
+        <tr>
+          <td><label for="" >Pays</label><span >*</span></td>
+          <td><select id="Pay" name="pays" id="Pays">
+           <option value="">--Please select an option--</option>
+           <option value="Maroc">maroc</option>
+           <option value="Algérie">Algérie</option>
+           <option value="Tunisie">Tunisie</option>
+           <option value="Muritanie">Muritanie</option>
+           <option value="Jordanie">Jordanie</option>
+           <option value="Egypte">Egypte</option> </select></td>
+          <td><p id="error5"></p></td>
+        </tr>
+
+        <tr>
+         <td><label for="" >Genre</label><span>*</span></td>
+         <td><input id="Mas" type="Radio" name="genre"><label>Masculin</label>
+             <input id="Fém" type="Radio" name="genre"><label>Féminin</label></td>
+         <td><p id="error6"></p></td>
+        </tr>
+
+        <tr>
+          <td><label for="" >Préférence de contact </label><span >*</span></td>
+          <td><label>Fax</label><input id="Fax" type="checkbox">
+          <label>Email</label><input id="Email" type="checkbox">
+          <label>Telephone</label>
+          <input id="Tele" type="checkbox"></td>
+          <td><p id="error7"></p></td>
+         </tr>
+          <tr>
+            <td><label for="" >Email</label><span>*</span></td>
+            <td><input id="Em" type="email" name="Email"></td>
+            <td><p id="error8"></p></td>
+        </tr>
+       <tr> 
+        <td><label for="" >Password(6-8 characters)</label><span >*</span></td>
+        <td><input id="Psw" type="password" name="Password(6-8 characters)" required></td>
+        <td><p id="error9"></p></td>
+
+      </tr>
+
+        <tr><td><label for="" >Vérifécation password</label><span >*</span></td>&emsp;
+        <td><input id="Vpsw" type="password" name="véréfication password" required></td>
+        <td><p id="error10"></p></td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td><button type="button" onclick="verif()">Envoyer</button>
+            <button type="reset">Effacer</button></td>
+      </tr>
+    </table>
+    </fieldset>
+    </form>
+   </body>
+</html>

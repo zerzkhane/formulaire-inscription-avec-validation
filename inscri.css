@@ -1,0 +1,43 @@
+body{
+  background-image: url("./Copie-de-Copie-de-1-1024x751.jpg");
+  background-repeat: repeat;
+  background-color: #cccccc;
+  text-align: center;
+ 
+    
+}
+label{
+  color: rgb(102, 4, 69);
+  font-weight: bolder;
+}
+select{
+  color:rgb(81, 14, 145);
+  font-weight:bold;
+}
+legend{
+  text-transform: capitalize;
+  font-size:larger;
+  font-weight: bolder;
+}
+table{
+    margin:auto;
+}
+button{
+  justify-content: space-between;
+ 
+}
+p{
+  color: rgb(180, 52, 30);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:x-large;
+  font-weight: 300;
+}
+input{
+  margin: 10px;
+}
+span{
+  color: red;
+}
+h3{
+  color:rgb(134, 100, 165)
+}
